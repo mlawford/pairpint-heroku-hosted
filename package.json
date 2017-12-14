@@ -16,12 +16,12 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./final-project-back-end/server.js & react-scripts start "
+    "start": "node ./final-project-back-end/server.js"
   },
   "description": "Mod 5 project back end",
   "main": "index.js",
   "homepage": "https://github.com/mlawford/final-project-back-end#readme"
-}
+},
 
 {
   "name": "front-end-2",
