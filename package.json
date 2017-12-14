@@ -1,54 +1,24 @@
 {
-  "name": "front-end-2",
-  "version": "0.1.0",
+  "name": "final-project-back-end",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "axios": "^0.17.1",
     "body-parser": "^1.18.2",
-    "brace": "^0.11.0",
     "express": "^4.16.2",
     "foreman": "^2.0.0",
     "marked": "^0.3.6",
     "mongoose": "^4.13.5",
     "nodemon": "^1.12.1",
-    "react": "^16.1.1",
-    "react-ace": "^5.7.0",
-    "react-dom": "^16.1.1",
-    "react-redux": "^5.0.6",
-    "react-router": "^4.2.0",
-    "react-router-dom": "^4.2.2",
-    "react-scripts": "1.0.17",
-    "redux": "^3.7.2",
     "redux-persist": "^5.4.0",
-    "uuid": "^3.1.0"
+    "uuid": "^3.1.0",
+    "ws": "^3.3.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./final-project-back-end/server.js "
   },
-    "name": "final-project-back-end",
-    "version": "1.0.0",
-    "description": "Mod 5 project back end",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "nodemon ./server.js & nodemon ./index.js"
-    },
-    "homepage": "https://github.com/mlawford/final-project-back-end#readme",
-    "dependencies": {
-      "axios": "^0.17.1",
-      "body-parser": "^1.18.2",
-      "express": "^4.16.2",
-      "foreman": "^2.0.0",
-      "marked": "^0.3.6",
-      "mongoose": "^4.13.5",
-      "nodemon": "^1.12.1",
-      "redux-persist": "^5.4.0",
-      "uuid": "^3.1.0",
-      "ws": "^3.3.2"
-    }
-
-
+  "description": "Mod 5 project back end",
+  "main": "index.js",
+  "homepage": "https://github.com/mlawford/final-project-back-end#readme"
 }
